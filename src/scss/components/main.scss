@@ -1,0 +1,319 @@
+main {
+    position: relative;
+    .container {
+        width: 1440px;
+       align-items: center;
+    .main__cifri__section {
+        width: 1440px;
+       // background: khaki;
+        height: 1000px;
+            .main__cifri {
+                // display: flex;
+                padding: 0px 0px 30px 0px;
+                align-items: center;
+                position: relative;
+                top: 120px;
+                width: 1170px;
+                left: 135px;
+
+                .cifri {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+
+                    h1 {
+                        // position: relative;
+
+                        color: $green;
+                        text-align: center;
+                        font-size: 58px;
+                        font-family: Raleway;
+                        font-weight: 500;
+                        line-height: 100%;
+                    }
+                }
+
+                .cifri__text {
+                    display: flex;
+                    justify-content: space-around;
+
+                    p {
+                        width: 200px;
+                        height: 34px;
+                        color: $dark;
+                        font-family: Raleway;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 17px;
+                        letter-spacing: 0em;
+                        text-align: center;
+
+
+                    }
+                }
+            }
+
+            .main__teachers {
+
+                display: flex;
+                width: 1170px;
+                // height: 472px;
+                top: 120px;
+                left: 135px;
+                position: relative;
+                height: 472px;
+                // bottom: 120px;
+
+                .main__text {
+                    position: relative;
+                    top: 185px;
+                    //height: 100vh;
+
+                    h1 {
+                        color: $dark;
+                        font-size: 58px;
+                        font-family: Raleway;
+                        font-weight: 500;
+                        line-height: 100%;
+                    }
+
+                    p {
+                        color: $dark;
+                        font-weight: 500;
+                        font-size: 16px;
+                        font-family: Raleway;
+                        line-height: 150%;
+                    }
+
+                    .btn {
+
+                        a {
+                            color: $light;
+                            position: relative;
+                            top: 20px;
+                            text-decoration: none;
+                            text-align: center;
+                            font-size: 16px;
+                            font-family: Raleway;
+                            font-weight: 500;
+                            line-height: 100%;
+                        }
+                    }
+                }
+
+                .teachers {
+                    position: relative;
+                    top: 120px;
+                    height: 100vh;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        gap: 30px;
+
+                        li {
+                            span {
+                                color: $dark;
+                                text-align: center;
+                                font-size: 14px;
+                                font-family: Raleway;
+                                line-height: 130%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main__section {
+        .container {
+            width: 1440px;
+            position: relative;
+            background: $green;
+            display: flex;
+            height: 602px;
+            gap: 100px;
+
+            .section__left {
+                position: relative;
+                left: 165px;
+                top: 120px;
+
+                img {
+                    position: relative;
+                    bottom: 290px;
+
+                }
+
+                svg {
+                    position: relative;
+                    left: 30px;
+
+                }
+            }
+
+            .section__right {
+                position: relative;
+                width: 500px;
+                right: 205px;
+                bottom: 50px;
+               // top: 50px;
+
+                h1 {
+                    color: $light;
+                    font-size: 58px;
+                    font-family: Raleway;
+                    font-weight: 500;
+                    line-height: 120%;
+                }
+
+                p {
+                    color: $light;
+                    font-size: 16px;
+                    font-family: Raleway;
+                    line-height: 150%;
+                }
+
+                .btn {
+                    margin-top: 50px;
+
+                    a {
+                        color: $light;
+                        position: relative;
+                        top: 20px;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: Raleway;
+                        font-weight: 500;
+                        line-height: 100%;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .main__courses {
+        .container {
+            width: 1440px;
+            //background: hotpink;
+            min-height: 460px;
+            padding-top: 50px;
+            h1 {
+                color: $dark;
+                text-align: center;
+                font-size: 58px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 100%;
+            }
+
+            .course__items {
+                // width: 1170px;
+                display: flex;
+                align-items: center;
+                // gap: 30px;
+                //align-content: center;
+
+                justify-content: space-around;
+
+                .course__item {
+                    position: relative;
+                    left: 25px;
+
+                    img {
+                        position: relative;
+                        border-radius: 10px;
+                        bottom: 220px;
+                        left: 45px;
+                        //background: $light;
+                        box-shadow: rgba(101, 101, 101, 0.12);
+                    }
+
+                    p {
+                        position: relative;
+                        bottom: 200px;
+                        left: 40px;
+
+                        a {
+                            color: $dark;
+                            text-decoration: none;
+                            font-size: 16px;
+                            font-family: Raleway;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 100%;
+
+                        }
+                    }
+                }
+            }
+
+            button {
+                color: $light;
+                border: none;
+                position: relative;
+                left: 600px;
+                bottom: 120px;
+                text-align: center;
+                font-size: 16px;
+                font-family: Raleway;
+                font-weight: 500;
+
+            }
+        }
+    }
+
+    .main__section1 {
+        .container {
+            position: relative;
+            display: flex;
+            height: 100%;
+
+            .section__right {
+                position: relative;
+                width: 508px;
+                right: 700px;
+                bottom: 20px;
+                
+                h1 {
+                    color: $dark;
+                    height: 140px;
+                    font-size: 58px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 120%;
+                }
+
+                p {
+                    width: 450px;
+                    height: 72px;
+                    color: $dark;
+                    font-size: 16px;
+                    font-family: Raleway;
+                    font-weight: 400;
+                    line-height: 150%;
+                }
+
+                button {
+
+                    color: $light;
+                    position: relative;
+                    margin-top: 50px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 16px;
+                    font-family: Raleway;
+                    font-weight: 500;
+                    line-height: 100%;
+                }
+            }
+        }
+    }
+}

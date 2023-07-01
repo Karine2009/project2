@@ -1,1 +1,1 @@
-{"version":3,"file":"all.js","sources":["all.js"],"sourcesContent":["\"use strict\";"],"names":[],"mappings":"AAAA"}
+{"version":3,"sources":["main.js"],"names":["window","addEventListener"],"mappings":"aAAAA,OAAAC,iBAAA,mBAAA,YACA","file":"all.js","sourcesContent":["window.addEventListener(\"DOMContentLoaded\", ()=>{\r\n})"]}
